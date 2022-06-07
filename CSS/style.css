@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root {
+        --font1: 'Bai Jamjuree', sans-serif;
+	/* Primary */
+	--Strong_Cyan: hsl(171, 66%, 44%);
+	--Light_Blue: hsl(233, 100%, 69%);
+	/* Neutral */
+	--Dark_Grayish_Blue: hsl(210, 10%, 33%);
+	--Grayish_Blue: hsl(201, 11%, 66%);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 2rem;
+	font-family: var(--font1);
+}
+body{
+	/* height: 100vh; */
+	/* width: 100vw; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h3{
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var(--Dark_Grayish_Blue);
+	margin-bottom: 15px;
+}
+p{
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	font-weight: 400;
+	color: var(--Grayish_Blue);
+	margin-bottom: 40px;
+}
+h4{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--Dark_Grayish_Blue);
+	margin-bottom: 10px;
+}
+.box{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/* width: 90%; */
+}
+.logo_and_download{
+	background: url(../images/bg-header-mobile.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* width: 81%; */
+	margin-top: 0;
+	margin-bottom: 150px;
+	/* height: 100%; */
+}
+.logo{
+	width: 5.55rem;
+	margin: 3.5rem;
+}
+.history{
+	text-align: center;
+	
+	/* margin-left: 1.9rem;
+	margin-right: 1.9rem; */
+}
+.download{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	/* margin: 10px; */
+}
+.ios{
+	background-color: var(--Strong_Cyan);
+	color: #fff;
+	width: 300px;
+	height: 45px;
+	border-radius: 2rem;
+	border: 0;
+	margin-bottom: 17px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.mac{
+	background-color: var(--Light_Blue);
+	color: #fff;
+	width: 300px;
+	height: 45px;
+	border-radius: 2rem;
+	border: 0;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+/* ******************************************************** */
+.snippets{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	text-align: center;
+}
+.mac_Img{
+	width: 16rem;
+	margin-bottom: 40px;
+}
+/* ******************************************************** */
+.clipboard{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+.devices{
+	width: 16rem;
+}
+/* ******************************************************** */
+.workflow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+/* ******************************************************** */
+.features{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	text-align: center;
+}
+.xxx img{
+	margin-bottom: 16px;
+	width: 3.3rem;
+}
+/* ******************************************************** */
+.company{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+.company img{
+	margin-bottom: 50px;
+	width: 8rem;
+}
+/* ******************************************************** */
+.about_download{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 81%;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+.last_part{
+	text-align: center;
+}
+/* ******************************************************** */
+.foot{
+	background-color: #f5f6f8;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.foot_logo{
+	margin-top: 50px;
+	width: 3.3rem;
+	margin-bottom: 30px;
+}
+.links{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.links a{
+	text-decoration: none;
+	color: var(--Dark_Grayish_Blue);
+	font-weight: 400;
+}
+.links a:hover{
+	color: var(--Strong_Cyan);
+	font-weight: 600;
+}
+.icon_foot{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+.icon_foot img:hover{
+	filter: invert(64%) sepia(43%) saturate(682%) hue-rotate(122deg) brightness(87%) contrast(90%);
+}
+/* ******************************************************** */
+/* ******************************************************** */
+/* ******************************************************** */
+@media (min-width : 1025px){
+	h3{
+		font-size: 2.901rem;
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2rem;
+	}
+	h4{
+		font-size: 1.6rem;
+	}
+	.box{
+		width: 100%;
+	}
+	.logo_and_download{
+		background: url(../images/bg-header-desktop.png);
+		background-size: cover;
+		width: 100%;
+		margin-bottom: 8rem;
+	}
+	.logo{
+		width: 7.7rem;
+	}
+	.history{
+		margin-left: 22rem;
+		margin-right: 22rem;
+	}
+	.download{
+		flex-direction: row;
+		width: 46rem;
+		justify-content: center;
+		align-items: center;
+		align-content:space-around;
+	}
+	.ios{
+		margin-bottom: 0;
+		width: 200px;
+		margin: 10px;
+	}
+	.mac{
+		width: 200px;
+		margin: 10px;
+	}
+	/* ******************************************************** */
+	.snippets{
+		width: 100%;
+	}
+	.track{
+		margin-left: 13rem;
+		margin-right: 13rem;
+	}
+	.track h3{
+		font-size: 2.4rem;
+	}
+	.left{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.mac_Img{
+		width: 50rem;
+	}
+	.right{
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin: 100px;
+	}
+	/* ******************************************************** */
+	.clipboard h3{
+		font-size: 2.4rem;
+	}
+	.clipboard p{
+		margin-left: 13rem;
+		margin-right: 13rem;
+	}
+	.devices{
+		width: 55rem;
+	}
+	/* ******************************************************** */
+	.workflow h3{
+		font-size: 2.4rem;
+	}
+	/* ******************************************************** */
+	.features{
+		width: 90%;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.xxx{
+		width: 25rem;
+	}
+	/* ******************************************************** */
+	.company{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.company img{
+		width: 9rem;
+	}
+	/* ******************************************************** */
+	.last_part{
+		margin-left: 13rem;
+		margin-right: 13rem;
+	}
+	/* ******************************************************** */
+	.foot{
+		flex-direction: row;
+		justify-content: space-around;
+		height: 130px;
+		margin-top: 0;
+	}
+	.foot_logo {
+		margin-bottom: 50px;
+	}
+	.links{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100px;
+		flex-wrap: wrap;
+		width: 30%;
+		margin-bottom: 0;
+	}
+	.icon_foot{
+		width: 20%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 0;
+	}
+}
